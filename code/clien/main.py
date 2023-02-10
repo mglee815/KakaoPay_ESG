@@ -11,8 +11,8 @@ keyword = ''
 result_path = ''
 
 if __name__ == "__main__":
-    keyword = input("키워드를 입력하세요 : ")
-    result_path = "../../data/cilen.xlsx"
+    keyword = input("키워드를 입력하세요 : ") -> # "원하는 키워드"
+    result_path = "../../data/cilen.xlsx" #  -> ./result.xlsx
     print('============================')
     print('키워드 :', keyword)
     print('결과물 :', result_path)
